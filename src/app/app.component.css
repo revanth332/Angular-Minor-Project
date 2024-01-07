@@ -1,0 +1,44 @@
+body{
+    background: #7F7FD5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+  .car{
+    height: 300px;
+    width:70%;
+    margin:20px auto;
+    position:relative;
+    border:none;
+    border-radius: 10px;
+  }
+  .car img{
+    height:300px;
+    border-radius: 10px;
+  }
+  .mask{
+    position: absolute;
+    background-color: black;
+    opacity:0.5;
+    width:100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+  p{
+    font-size: 18px;
+  }
+  .carousal{
+    border: 1px solid white;
+  }
+  .dif{
+    background: #FF5F6D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+-webkit-background-clip: text;
+color: transparent;
+  }

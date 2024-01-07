@@ -1,0 +1,9 @@
+  <div *ngFor="let jumbo of jumbos;let i=index" class="carousel-item" [class.active]="i==0">
+    <div [ngStyle]="jumbo.gradient" class="jumbo pure-flex">
+      <div class="d-flex flex-column justify-content-evenly align-items-center">
+        <h1 style="font-size: 30px;"> {{jumbo.head}}</h1>
+        <p style="font-size:17px">{{jumbo.text}} </p> 
+        <p><a class="btn btn-outline-light btn-lg" href="#" role="button" style="font-size:14px">Know more</a></p>
+      </div>
+  </div>
+  </div>

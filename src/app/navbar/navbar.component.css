@@ -1,0 +1,25 @@
+.navbar{
+    background: #424292
+}
+.navbar a{
+    color:white;
+    font-size: 22px;
+    margin-left: 10px;
+}
+.dropdown-item,.dropdown-menu{
+    background-color: #424292;
+    border-radius: 15px;
+}
+.dropdown-item:hover,.nav-link:hover{
+    border:2px solid white;
+    border-radius: 15px;
+}
+.active{
+    border:2px solid white;
+    border-radius: 15px;
+}
+.media{
+    height:25px;
+    width:25px;
+    margin-left:20px;
+}

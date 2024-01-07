@@ -1,0 +1,18 @@
+<div class="container text-center mt-2 p-0">
+    <h1 style="font-size: 29px;">What Did Our Students Say About Us ?</h1>
+    <p class="my-2">Here are some of the best reviews we have got from the alumni of our College. Feel free to view them.</p>
+    <div class="cards-container d-flex justify-content-between text-start mt-1 flex-wrap">
+      <mat-card *ngFor="let student of students" class="example-card">
+        <mat-card-header>
+          <mat-card-title-group>
+            <mat-card-title>{{student.name}}</mat-card-title>
+            <mat-card-subtitle>{{ student.designation }}</mat-card-subtitle>
+            <img mat-card-sm-image src={{student.imageUrl}}>
+          </mat-card-title-group>
+        </mat-card-header>
+        <mat-card-content>
+          <q><cite>{{ student.review }}</cite></q>
+        </mat-card-content>
+      </mat-card>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+.jumbo{
+    /* background:linear-gradient(to right,#00416A,#0494ed); */
+    color:white;
+    padding:10px;
+    width:100%;
+    border-radius: 10px;
+    height:250px;
+}
+.pure-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    width:600px;
+    text-align: center;
+}
